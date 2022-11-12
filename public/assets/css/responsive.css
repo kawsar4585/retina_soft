@@ -1,0 +1,275 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .course-box {
+        flex-wrap: wrap;
+    }
+
+    .card-courses-media {
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card-courses-full-dec {
+        margin-bottom: 30px;
+    }
+
+    .service-bx .info-bx {
+        padding: 12px 15px 15px;
+    }
+
+    .calendar-active .common-arrow.common-arrow--prev {
+        right: auto;
+        left: 30%;
+    }
+
+    .calendar-active .common-arrow.common-arrow--next {
+        left: auto;
+        right: 30%;
+    }
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .comments-reply {
+        margin-left: 50px;
+    }
+
+    .service-bx .info-bx {
+        padding: 12px 15px 15px;
+    }
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+   
+
+
+}
+
+
+@media only screen and (max-width:991px) {
+     .book--lesson {
+        margin-top: 40px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .teachers--tab nav .nav-tabs {
+        flex-direction: column;
+    }
+
+    .teachers--content--details > p {
+        padding-right: 0;
+    }
+
+    .btn,
+    .btn-secondry {
+        padding: 12px 25px;
+        font-size: 15px;
+    }
+
+    .teachers--ratings--details ul li .btn.feedback-btn {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    #calendar1 .fc-toolbar h2 {
+        font-size: 15px;
+    }
+
+    #calendar1 .fc-week-number {
+        display: none;
+    }
+
+    #calendar1 .fc-day-number {
+        font-size: 16px;
+        padding: 5px !important;
+    }
+
+    #calendar1 th.fc-day-header span {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0;
+    }
+
+    .fc-unthemed th.fc-day-header {
+        padding: 10px 3px;
+        font-size: 14px;
+    }
+
+    .comments-box {
+        flex-wrap: wrap;
+    }
+
+    .comments-author-info {
+        margin-left: 0;
+        padding: 25px 20px;
+    }
+
+    .comments--author-header h4 {
+        font-size: 18px;
+    }
+
+    .comments-reply {
+        margin-left: 15px;
+    }
+
+    .comments-author {
+        min-width: 120px;
+        max-width: 120px;
+        margin-bottom: -30px;
+    }
+
+    .teachers--thumb img {
+        margin-bottom: 0;
+    }
+
+    .course-box {
+        flex-wrap: wrap;
+    }
+
+    .card-courses-media {
+        margin-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .card-courses-full-dec {
+        margin-bottom: 30px;
+    }
+
+    .card-courses-media {
+        width: 100%;
+        min-width: 100%;
+        height: 100%;
+    }
+
+    .card-courses-dec2 p {
+        font-size: 14px !important;
+    }
+
+    .card-courses-view > li {
+        padding-right: 12px;
+    }
+
+    #filter-category select {
+        display: none;
+    }
+
+    .panel-body .card {
+        padding: 15px;
+    }
+
+    .table.card-table .btn {
+        padding: 0 2px;
+        font-size: 11px;
+    }
+
+    .orders-list ul li,
+    .new-user-list ul li,
+    .noti-box-list ul li {
+        flex-wrap: wrap;
+    }
+
+    .orders-list ul li .orders-btn,
+    .new-user-list ul li .new-users-btn {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .ttr-header-right {
+        float: none;
+    }
+
+    .ttr-logo-box {
+        display: none;
+    }
+
+    .ttr-header-submenu.noti-menu {
+        width: 279px;
+        left: -60% !important;
+        right: 0 !important;
+    }
+
+    .ttr-header-navigation > li {
+        width: 100%;
+    }
+
+    .ttr-header-navigation > li a {
+        padding-right: 25px;
+    }
+
+    .ttr-header-navigation > li a {
+        padding-right: 0;
+        padding: 0 5px;
+    }
+
+    .db-breadcrumb {
+        flex-wrap: wrap !important;
+    }
+
+    .card-courses-dec {
+        flex-grow: inherit;
+        padding: 15px 0px;
+    }
+
+    .db-breadcrumb {
+        flex-wrap: wrap !important;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .ttr-header-navigation {
+        display: flex;
+        align-items: center;
+        padding: 9px 10px;
+    }
+
+    .fc-toolbar .fc-center,
+    .fc-toolbar .fc-right,
+    .fc-toolbar .fc-left {
+        width: inherit;
+        margin-bottom: 25px;
+    }
+
+    .fc-toolbar button.fc-today-button {
+        top: 0;
+    }
+
+    .candidate_revew_search_box form button {
+        right: 25px;
+        margin: 0 !important;
+    }
+
+    .btn.btn--credit {
+        font-size: 12px;
+        padding: 13px 5px !important;
+    }
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 448px) and (max-width: 767px) {
+    .db-breadcrumb {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card-courses-dec {
+        flex-grow: 1;
+        padding: 0px 0px;
+    }
+
+}
+
+@media only screen and (min-width: 580px) and (max-width: 767px) {}
